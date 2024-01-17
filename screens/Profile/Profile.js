@@ -32,9 +32,9 @@ const Profile = ({navigation}) => {
             <Text style={style.statAmount}>100</Text>
             <Text style={style.statType}>Posts</Text>
           </View>
-          <View style={globalStyle.flex}>
-            <ProfileTabsNagivation />
-          </View>
+        </View>
+        <View style={globalStyle.flex}>
+          <ProfileTabsNagivation />
         </View>
       </ScrollView>
     </SafeAreaView>
