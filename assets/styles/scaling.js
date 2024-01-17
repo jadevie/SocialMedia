@@ -38,3 +38,5 @@ const guidelineBaseFont = () => {
 };
 
 const scaleFontSize = size => Math.round(width / guidelineBaseFont()) * size;
+
+export {horizontalScale, verticalScale, scaleFontSize};

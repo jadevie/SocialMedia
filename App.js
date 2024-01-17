@@ -13,6 +13,7 @@ import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 import UserStory from './ios/Trial/Components/UserStory/UserStory';
 import globalStyle from './assets/styles/globalStyle';
 import UserPost from './ios/Trial/Components/UserPost/UserPost';
+import {scaleFontSize} from './assets/styles/scaling';
 
 const App = () => {
   //database
@@ -180,7 +181,7 @@ const App = () => {
                 <TouchableOpacity style={globalStyle.messageIcon}>
                   <FontAwesomeIcon
                     icon={faEnvelope}
-                    size={20}
+                    size={scaleFontSize(20)}
                     color={'#898DAE'}
                   />
                   <View style={globalStyle.messageNumberContainer}>
