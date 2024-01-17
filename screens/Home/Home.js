@@ -13,8 +13,10 @@ import Title from '../../components/Title/Title';
 import UserPost from '../../components/UserPost/UserPost';
 import {scaleFontSize} from '../../assets/styles/scaling';
 import style from './style';
+import globalStyle from './style';
+import {Routes} from '../../navigation/Routes';
 
-const Home = () => {
+const Home = ({navigation}) => {
   //database
   const userStories = [
     {
@@ -170,14 +172,16 @@ const Home = () => {
   }, []);
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={globalStyle.backgroundWhite}>
       <View>
         <FlatList // for scrolling horizontal
           ListHeaderComponent={
             <>
               <View style={style.header}>
                 <Title title={'Let’s Explore'} />
-                <TouchableOpacity style={style.messageIcon}>
+                <TouchableOpacity
+                  style={style.messageIcon}
+                  onPress={() => navigation.navigate(Routes.Profile)}>
                   <FontAwesomeIcon
                     icon={faEnvelope}
                     size={scaleFontSize(20)}
