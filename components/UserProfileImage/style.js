@@ -1,5 +1,5 @@
 import {StyleSheet} from 'react-native';
-import {horizontalScale} from '../../../../assets/styles/scaling';
+import {horizontalScale} from '../../assets/styles/scaling';
 
 const style = StyleSheet.create({
   userImageContainer: {

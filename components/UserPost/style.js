@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
-import {getFontFamily} from '../../../../assets/fonts/helper';
 import {
   horizontalScale,
   scaleFontSize,
   verticalScale,
-} from '../../../../assets/styles/scaling';
+} from '../../assets/styles/scaling';
+import {getFontFamily} from '../../assets/fonts/helper';
 
 const style = StyleSheet.create({
   userContainer: {flexDirection: 'row'},

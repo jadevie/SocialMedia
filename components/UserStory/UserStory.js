@@ -3,7 +3,7 @@ import {View, Text, Image} from 'react-native';
 import PropTypes from 'prop-types';
 import UserProfileImage from '../UserProfileImage/UserProfileImage';
 import style from './style';
-import {horizontalScale} from '../../../../assets/styles/scaling';
+import {horizontalScale} from '../../assets/styles/scaling';
 
 const UserStory = props => {
   return (

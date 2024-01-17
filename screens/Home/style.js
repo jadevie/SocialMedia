@@ -1,6 +1,10 @@
 import {StyleSheet} from 'react-native';
-import {getFontFamily} from '../fonts/helper';
-import {horizontalScale, scaleFontSize, verticalScale} from './scaling';
+import {
+  horizontalScale,
+  scaleFontSize,
+  verticalScale,
+} from '../../assets/styles/scaling';
+import {getFontFamily} from '../../assets/fonts/helper';
 
 const globalStyle = StyleSheet.create({
   header: {

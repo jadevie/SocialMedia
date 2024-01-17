@@ -10,10 +10,7 @@ import {
   faHeart,
   faMessage,
 } from '@fortawesome/free-regular-svg-icons';
-import {
-  horizontalScale,
-  scaleFontSize,
-} from '../../../../assets/styles/scaling';
+import {horizontalScale, scaleFontSize} from '../../assets/styles/scaling';
 
 const UserPost = props => {
   return (

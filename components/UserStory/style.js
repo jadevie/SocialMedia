@@ -1,10 +1,10 @@
 import {StyleSheet} from 'react-native';
-import {getFontFamily} from '../../../../assets/fonts/helper';
+import {getFontFamily} from '../../assets/fonts/helper';
 import {
   verticalScale,
   horizontalScale,
   scaleFontSize,
-} from '../../../../assets/styles/scaling';
+} from '../../assets/styles/scaling';
 
 const style = StyleSheet.create({
   storyContainer: {
