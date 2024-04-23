@@ -13,6 +13,7 @@ const ProfileTabContent = () => {
           style={style.image}
           source={require('../../assets/images/default_post.png')}
         />
+        
         <Image
           resizeMode={'contain'}
           style={style.image}
